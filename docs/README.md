@@ -11,7 +11,7 @@
 ### 2. Инструкция
 
 ```Bash
-make                                         # Сборка модуля и сервера [cite: 3, 117, 122]
-sudo insmod build/kernel/telegram_fs.ko      # Загрузка драйвера [cite: 3, 123, 128]
-sudo ./build/telegram_server                 # Запуск эмулятора [cite: 3, 124, 129]
+make                                         # Сборка модуля и сервера
+sudo insmod build/kernel/telegram_fs.ko      # Загрузка драйвера
+sudo ./build/telegram_server                 # Запуск эмулятора
 ```
